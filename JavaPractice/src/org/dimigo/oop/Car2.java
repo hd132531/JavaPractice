@@ -6,15 +6,15 @@ package org.dimigo.oop;
 /**
  * <pre>
  *org.dimigo.oop
- *		|_ Car
+ *		|_ Car2
  *
  *
  *1. 개요 :
- *2. 작성일 : 2015. 4. 13.
+ *2. 작성일 : 2015. 4. 17.
  *</pre>
  * @author :정희조
  *
- * @version :1.0
+ * @version :2.0
  */
 public class Car2 {
 	private	String company;
