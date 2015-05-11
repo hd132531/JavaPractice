@@ -33,9 +33,9 @@ public class Question {
 				System.out.println("정답입니다!! ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 			}
 			else System.out.println("틀렸습니다!! ㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜ");
-			System.out.println("가장 재밌는 게임은?");
+			System.out.println("가장 먹고싶은것은?");
 			answer=scanner.nextLine();
-			if(answer.equals("라스트 오브 어스")){
+			if(answer.equals("치킨")){
 				System.out.println("정답입니다!! ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 			}
 			else System.out.println("틀렸습니다!! ㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜㅜ");
