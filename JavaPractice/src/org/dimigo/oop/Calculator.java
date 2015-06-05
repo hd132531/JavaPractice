@@ -17,8 +17,8 @@ package org.dimigo.oop;
  * @version :1.0
  */
 public class Calculator {
-	private int num1;
-	private int num2;
+	private Integer num1;
+	private Integer num2;
 	public Calculator() {
 	}
 	public Calculator(int num1,int num2){
@@ -32,15 +32,19 @@ public class Calculator {
 		System.out.println(("Calculator Powered Off..."));
 	}
 	public int add(){
+		System.out.print(num1 + "+"+num2 +"=");
 		return num1+num2;
 	}
 	public int sub(){
+		System.out.print(num1 + "-"+num2+"=");
 		return num1-num2;
 	}
 	public int mul(){
+		System.out.print(num1 + "*"+num2+"=");
 		return num1*num2;
 	}
 	public double div(){
+		System.out.print(num1 + "/"+num2+"=");
 		return (num1/(double)num2);
 	}
 }
