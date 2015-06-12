@@ -25,6 +25,6 @@ public class PiggyBank {
 	}
 	
 	public void printBalance(){
-		System.out.println("돼지저금통 총 금액 : "+balance);
+		System.out.println("돼지저금통 총 금액 : "+balance+"원");
 	}
 }
