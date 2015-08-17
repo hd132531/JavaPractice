@@ -23,6 +23,7 @@ public class Triangle extends Figure {
 		super(0,0);
 		this.width=width;
 		this.height=height;
+		
 	}
 	public Triangle(int centerX,int centerY,int width,int height){
 		super(centerX,centerY);
