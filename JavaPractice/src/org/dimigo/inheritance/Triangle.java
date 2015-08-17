@@ -25,6 +25,10 @@ public class Triangle extends Figure {
 		this.height=height;
 		
 	}
+	protected void printCenter(){
+		System.out.print("삼각형 ");
+		super.printCenter();
+	}
 	public Triangle(int centerX,int centerY,int width,int height){
 		super(centerX,centerY);
 

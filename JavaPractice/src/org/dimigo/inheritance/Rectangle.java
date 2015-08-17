@@ -30,6 +30,10 @@ public class Rectangle extends Figure{
 		this.width=width;
 		this.height=height;
 	}
+	protected void printCenter(){
+		System.out.print("사각형 ");
+		super.printCenter();
+	}
 	protected double calcArea(){
 		return width*height;
 	}

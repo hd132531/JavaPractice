@@ -23,6 +23,10 @@ public class Circle extends Figure{
 		this.radius=radius;
 		
 	}
+	protected void printCenter(){
+		System.out.print("원 ");
+		super.printCenter();
+	}
 	public Circle(int centerX,int centerY,int radius){
 		super(centerX,centerY);
 		this.radius=radius;
