@@ -25,6 +25,7 @@ public class SmartPhoneTest {
 		// TODO Auto-generated method stub
 		SmartPhone a=new IPhone("iphone 6","애플",700000);
 		SmartPhone s=new Galaxy("갤럭시 S6","삼성",650000);
+		
 		System.out.println(a);
 		a.turnOn();
 		a.pay();

@@ -34,6 +34,7 @@ public abstract class SmartPhone {
 		System.out.println(model+"의 전원을 끕니다.");
 	}
 	public abstract void pay();
+	
 	public void useSpecialFuction(){
 		if(this instanceof IPhone){
 			((IPhone)this).useAirDrop();
