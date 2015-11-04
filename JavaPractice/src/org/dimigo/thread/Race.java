@@ -23,6 +23,7 @@ public class Race {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("main"+ " thread start");
 		Runner r1=new Runner("홍길동");
 		Runner r2=new Runner("홍길순");
 		
@@ -31,6 +32,7 @@ public class Race {
 		
 		r1.start();
 		r2.start();
+		System.out.println("main thread end");
 	}
 
 }
